@@ -7,14 +7,15 @@ const Auth = () => {
 
     const cookies = new Cookies();
 
-    const initialState = {
+    /*const initialState = {
         fullName : '',
         userName: '',
         password : '',
         confirmPassword: '',
         phoneNumber: '',
         avatarURL :'',
-    }
+    }*/
+
     const [form, setForm] = useState();
     const [isSignup, setSignup] = useState(true);
 
