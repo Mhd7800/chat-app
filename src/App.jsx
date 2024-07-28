@@ -30,6 +30,8 @@ const App = () => {
   const [isCreating, setIsCreating] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
 
+  
+
 
   if(!authToken) return <Auth />
   return (
@@ -41,6 +43,8 @@ const App = () => {
             setIsCreating= {setIsCreating}
             setIsEditing = {setIsEditing}
             setCreateType = {setCreateType}
+            createType = {createType}
+            isEditing = {isEditing}
             />
 
             <ChannelContainer
